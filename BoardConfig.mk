@@ -80,6 +80,7 @@ TARGET_PROVIDES_CAMERA_HAL := true
 # Graphics
 TARGET_QCOM_DISPLAY_VARIANT := caf
 BOARD_EGL_CFG := $(LOCAL_PATH)/config/egl.cfg
+DEVICE_RESOLUTION: 720x1280
 
 # Custom relese tools for unified devices
 TARGET_RELEASETOOLS_EXTENSIONS := device/motorola/moto_msm8960
